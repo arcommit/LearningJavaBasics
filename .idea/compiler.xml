@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LearningJavaBasics" />
+        <module name="LearningJavaBasicsAndBDDAutomation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LearningJavaBasics" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

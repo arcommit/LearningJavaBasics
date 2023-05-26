@@ -13,4 +13,9 @@ public class Subtraction {
         output = number1 - number2;
         System.out.print("The subtracted value is "+ output);
     }
+    public static int subNum(int num1, int num2) {
+        int output;
+        output = num1 - num2;
+        return (output);
+    }
 }
