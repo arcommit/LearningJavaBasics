@@ -1,0 +1,1 @@
+This is file writer in java 1.This is file writer in java 2.

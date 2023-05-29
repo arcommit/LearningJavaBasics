@@ -9,8 +9,5 @@
         <module name="LearningJavaBasicsAndBDDAutomation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="LearningJavaBasics" target="15" />
-    </bytecodeTargetLevel>
   </component>
 </project>
