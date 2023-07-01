@@ -16,10 +16,10 @@ public class StringOperationExamples {
 
         String findCharacterIn = "Mint";
 //
-//        int num1 = 10;
-//        String str1 = "10";
-//        System.out.println(num1 + Float.parseFloat(str1));
-//        System.out.println(num1 + str1);
+        int num1 = 10;
+        String str1 = "10";
+        System.out.println(num1 + Float.parseFloat(str1));
+        System.out.println(num1 + str1);
 
         int myInt = 9;
         double myDouble = myInt; // Automatic casting: int to double
@@ -31,22 +31,27 @@ public class StringOperationExamples {
 
 
 
-//        System.out.println("length of string = " + lengthOfString.length());
-//
-//        System.out.println(lowerCaseData.toUpperCase());
-//        System.out.println(lengthOfString.toLowerCase());
+        System.out.println("length of string = " + lengthOfString.length());
 
-//        if(lowerCaseData.equalsIgnoreCase(upperCaseData)){
-//            System.out.println("data match");
-//        }
-//        else{
-//            System.out.println("data mismatch");
-//        }
-//
-//        System.out.println(findCharacterIn.indexOf("t"));
-//        System.out.println(findCharacterIn.contains("t"));
+        System.out.println(lowerCaseData.toUpperCase());
+        System.out.println(lengthOfString.toLowerCase());
 
 
+        if(lowerCaseData.equalsIgnoreCase(upperCaseData)){
+            System.out.println("data match");
+        }
+        else{
+            System.out.println("data mismatch");
+        }
+
+        System.out.println(findCharacterIn.indexOf("t"));
+        System.out.println(findCharacterIn.contains("t"));
+
+    char c;
+        System.out.println("STR = " +lengthOfString);
+        c = lengthOfString.charAt(5);
+        System.out.println("CHartAtfunction = " + lengthOfString.charAt(5));
+        System.out.println(((Object)c).getClass().getSimpleName());
 
 
     }
